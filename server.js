@@ -21,7 +21,7 @@ app.use("/api/admin", require("./routes/adminRoutes"));
 app.use("/api/protected", require("./routes/protectedRoute"));
 app.use("/api/user", require("./routes/userRoutes"));
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 const startServer = async () => {
   try {
